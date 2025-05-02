@@ -8,3 +8,6 @@ const user :{
     email: "abc@gmail.com",
     isMarried: true,
 }
+
+
+
