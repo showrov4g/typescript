@@ -1,19 +1,19 @@
 {
     class Animal {
         name: string;
-        bread: string;
+        breed: string;
         sound: string;
-        constructor(name: string, bread: string, sound: string){
+        constructor(name: string, breed: string, sound: string){
             this.name = name;
-            this.bread = bread;
+            this.breed = breed;
             this.sound = sound;
         }
         makeSound(){
-            console.log()
+            console.log(`the ${this.name} says ${this.sound}`)
         }
     }
 
     const cat = new Animal("cat","american","meow")
-    console.log(cat);
+    cat.makeSound()
 
 }
