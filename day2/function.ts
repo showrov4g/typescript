@@ -10,6 +10,7 @@
         return [param1 , param2];
     }
 
+    const res45 = createArrayWithTuple<string, number>("ghosh",1)
 
 
     const result1 = createArray("bangladesh")
