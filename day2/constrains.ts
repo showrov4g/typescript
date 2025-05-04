@@ -1,6 +1,6 @@
 {
     //constraints
-    const course =<T>(student: T)=>{
+    const course = <T extends { id: number, name: string, email: string }>(student: T) => {
         const studentCourse = "next label Web development course"
         return {
             ...student,
@@ -13,6 +13,6 @@
         email: "abc@gmial.com",
         roll: 12,
         devType: "new developer"
-    }) 
+    })
 
 }
