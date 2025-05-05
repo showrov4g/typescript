@@ -1,5 +1,5 @@
 {
-    class student{
+    class Student{
         name: string;
         age: number;
         address: string;
@@ -9,8 +9,8 @@
             this.address = address
         }
     }
-    
 
+    const student1 = new Student("Ghosh",25,"Faridpur")
 
 
 
