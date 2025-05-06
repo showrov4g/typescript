@@ -8,11 +8,14 @@
             this.name = name;
             this._balance = balance;
         }
-        addDeposit(amount: number) {
-            this._balance = this._balance + amount;
-        }
-        getBalance(){
-            return this._balance;
+        // addDeposit(amount: number) {
+        //     this._balance = this._balance + amount;
+        // }
+        // getBalance(){
+        //     return this._balance;
+        // }
+        get Balance(){
+            return this._balance
         }
     }
     //child account 
@@ -26,8 +29,8 @@
 
 
     const goribManush = new BankAccount(111, "ghoish", 20)
-    goribManush.addDeposit(30)
-   const myBalance = goribManush.getBalance();
+//     goribManush.addDeposit(30)
+   const myBalance = goribManush.Balance
    console.log(myBalance);
   
 
