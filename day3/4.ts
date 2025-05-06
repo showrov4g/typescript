@@ -28,8 +28,18 @@
             console.log("It is barking")
         }
     }
+    const getAnimal = (animal: Animal) =>{
+        if(animal instanceof Dog){
+            animal.makeBark()
+        }
+        else if(animal instanceof Cat){
+            animal.makeMeow()
+        }
+    }
 
-    
+
+    const dog = new Dog("Black Dog", "American Breed")
+    const cat = new Cat ("White cat", "Bangka Cat")
 
 
 
