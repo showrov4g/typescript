@@ -1,1 +1,1 @@
-var a = 33;
+let arr : [number,string] = [2, "ghosh"];
